@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Serif:wght@400;700&family=Nunito:wght@300;400&family=Poppins:wght@300;400&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins";
+}
+body p {
+  font-family: "Montserrat";
+  color: #2e2e2e;
+}
+
+nav {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+}
+nav .logo {
+  font-size: 30px;
+  text-decoration: none;
+  color: orange;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+}
+nav ul a {
+  text-decoration: none;
+  color: #191919;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+nav ul a:hover {
+  color: orange;
+}
+nav .sign {
+  background: orange;
+  border: 0;
+  color: white;
+  padding: 5px 10px;
+  border: 2px solid orange;
+}
+nav .my-cart {
+  border: 2px solid orange;
+  padding: 5px 10px;
+  color: orange;
+  background: none;
+}
+
+.jumbotron {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+  height: 500px;
+  background: #eee;
+}
+.jumbotron .intro-text {
+  padding-right: 30px;
+}
+.jumbotron .intro-text h2 {
+  font-size: 40px;
+}
+.jumbotron .intro-text p {
+  margin: 15px 0;
+}
+.jumbotron .intro-text .explore-now {
+  background: orange;
+  margin-top: 10px;
+  border: 0;
+  color: white;
+  padding: 10px 10px;
+  border: 2px solid orange;
+}
+.jumbotron .intro-text .how-buy {
+  background: none;
+  margin-top: 10px;
+  color: orange;
+  padding: 10px 10px;
+  border: 2px solid orange;
+}
+.jumbotron .jumbotron-img {
+  height: 340px;
+}
+
+.section-product h2 {
+  margin: 40px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.product {
+  display: grid;
+  gap: 40px;
+  padding: 0 10%;
+  grid-template-columns: repeat(3, 1fr);
+}
+.product .card {
+  max-width: 300px;
+}
+.product .card h3 {
+  margin-top: 20px;
+}
+.product .card p {
+  margin: 10px 0;
+}
+.product .card div {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.product .card div a {
+  display: inline-block;
+  background-color: orange;
+  color: white;
+  padding: 7px 20px;
+  margin-right: 10px;
+}
+.product .card img {
+  height: 300px;
+}
+
+.about {
+  margin: 80px 0;
+  display: flex;
+  padding: 0 10%;
+  justify-content: space-between;
+  align-items: center;
+}
+.about .about-img {
+  max-height: 250px;
+}
+.about .about-text {
+  padding: 30px;
+}
+.about .about-text h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.about .about-text button {
+  background: none;
+  margin-top: 10px;
+  color: orange;
+  padding: 10px 10px;
+  border: 2px solid orange;
+  margin-top: 30px;
+}
+
+.contact {
+  padding: 50px 10%;
+  background: #eee;
+  margin-bottom: 50px;
+}
+.contact h3 {
+  font-size: 30px;
+}
+.contact input[type=text] {
+  width: 400px;
+  padding: 10px;
+}
+.contact input[type=submit] {
+  padding: 10px;
+  color: white;
+  border: 2px solid orange;
+  background: orange;
+}
+
+footer {
+  background: #191919;
+  padding: 40px 10%;
+}
+footer p {
+  color: white;
+  margin-top: 20px;
+}
+footer .footer-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .footer-text .footer-text1 {
+  width: 40%;
+}
+footer .footer-text .footer-text1 h2 {
+  color: white;
+}
+footer .footer-text ul {
+  list-style: none;
+}
+footer .footer-text p,
+footer .footer-text a {
+  color: white;
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
